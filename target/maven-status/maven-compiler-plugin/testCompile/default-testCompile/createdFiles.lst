@@ -1,0 +1,4 @@
+testCases\VerifyHomeScreen.class
+testCases\ViewsTestCases.class
+base\AppTest.class
+testCases\ChechIconGrid.class

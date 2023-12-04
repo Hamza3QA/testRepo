@@ -1,0 +1,5 @@
+pages\ViewsPage.class
+pages\PageBase.class
+signal\mobileTraining\App.class
+pages\AccessPage.class
+pages\HomePage.class

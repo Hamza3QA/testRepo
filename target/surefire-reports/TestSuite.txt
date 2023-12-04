@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 120.307 s <<< FAILURE! - in TestSuite
+openIconGrid(testCases.ViewsTestCases)  Time elapsed: 3.946 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@content-desc='Views']})
+	at testCases.ViewsTestCases.openIconGrid(ViewsTestCases.java:31)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@39d77de9 (tried for 1 second(s) with 500 milliseconds interval)
+	at testCases.ViewsTestCases.openIconGrid(ViewsTestCases.java:31)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@content-desc='Views']})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at testCases.ViewsTestCases.openIconGrid(ViewsTestCases.java:31)
+
