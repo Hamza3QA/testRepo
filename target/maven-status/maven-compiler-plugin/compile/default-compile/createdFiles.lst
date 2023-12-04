@@ -1,5 +1,6 @@
+pages\HomePage.class
 pages\ViewsPage.class
 pages\PageBase.class
 signal\mobileTraining\App.class
+pages\RotatingButtonPage.class
 pages\AccessPage.class
-pages\HomePage.class
