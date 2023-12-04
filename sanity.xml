@@ -6,6 +6,7 @@
       <class name="testCases.ChechIconGrid"/>
       <class name="testCases.ViewsTestCases"/>
       <class name="testCases.VerifyHomeScreen"/>
+<!--       <class name="testCases.VerifyHomeScreen"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
